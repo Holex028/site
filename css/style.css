@@ -752,10 +752,7 @@ header .menu_btn:hover {
 
 @media screen and (max-width: 590px) {
     header .header__nav {
-        justify-content: space-between;
-    }
-    .header__nav .col-md-7 {
-        display: none;
+        justify-content: center;
     }
     .header__nav .col-xs-1 {
         width: 25%;
@@ -775,12 +772,6 @@ header .menu_btn:hover {
 }
 
 @media screen and (max-width: 495px) {
-    header .header__nav {
-        justify-content: space-between;
-    }
-    .header__nav .col-md-7 {
-        display: none;
-    }
     .header__nav .col-xs-1 {
         width: 25%;
     }
