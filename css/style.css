@@ -769,6 +769,9 @@ header .menu_btn:hover {
     header {
         min-height: 700px;
     }
+    .header__nav .col-xs-6 {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 495px) {
