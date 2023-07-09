@@ -160,12 +160,16 @@ header .menu .menu_link:hover {
 }
 
 header .menu_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 188px;
     height: 46px;
     margin-top: 10px;
     border-style: none;
     border-radius: 35px;
     background-color: #fff;
+    text-decoration: none;
 }
 
 header .menu_btn:hover {
@@ -319,13 +323,18 @@ header .menu_btn:hover {
 }
 
 .subheader_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 188px;
     height: 46px;
+    margin: 0 auto;
     margin-top: 20px;
     border-style: none;
     border-radius: 35px;
     background-color: #3528c9;
     color: #fff;
+    text-decoration: none;
 }
 
 .subheader_btn:hover {
@@ -679,5 +688,156 @@ header .menu_btn:hover {
     color: #e5e5e5;
 }
 
+@media screen and (max-width: 1399px) {
+    .case_descr {
+        gap: 5px;
+    }
+}
 
-/*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 1199px) {
+    .case_descr {
+        justify-content: center;
+    }
+    .case_descr_card_one {
+        width: 30%;
+        height: 400px;
+    }
+    .case_descr_card_two {
+        width: 30%;
+        height: 400px;
+    }
+    .case_descr_card_three {
+        width: 30%;
+        height: 400px;
+    }
+    .card__img {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .case_descr_card_one {
+        height: 285px;
+    }
+    .case_descr_card_two {
+        height: 285px;
+    }
+    .case_descr_card_three {
+        height: 285px;
+    }
+    .card__img {
+        width: 175px;
+        height: 285px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header .logo {
+        justify-content: center
+    }
+    header .menu_btn {
+        margin: 10px auto 0;
+    }
+    .case_descr_card_one {
+        width: 45%;
+    }
+    .case_descr_card_two {
+        width: 45%;
+    }
+    .case_descr_card_three {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    header .header__nav {
+        justify-content: space-between;
+    }
+    .header__nav .col-md-7 {
+        display: none;
+    }
+    .header__nav .col-xs-1 {
+        width: 25%;
+    }
+    .header__nav .col-xs-6 {
+        width: 40%;
+    }
+    .subheader_subtitle {
+        font-size: 30px;
+    }
+    .subheader_title {
+        font-size: 36px;
+    }
+    header {
+        min-height: 700px;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    header .header__nav {
+        justify-content: space-between;
+    }
+    .header__nav .col-md-7 {
+        display: none;
+    }
+    .header__nav .col-xs-1 {
+        width: 25%;
+    }
+    .header__nav .col-xs-6 {
+        width: 50%;
+    }
+    .subheader_subtitle {
+        margin-top: 225px;
+        font-size: 36px;
+    }
+    .subheader_title {
+        font-size: 24px;
+    }
+    header {
+        min-height: 700px;
+    }
+    .case_descr_card_one {
+        width: 49%;
+    }
+    .case_descr_card_two {
+        width: 49%;
+    }
+    .case_descr_card_three {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .header__nav .col-xs-6 {
+        width: 60%;
+    }
+    .case_descr_btn {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .case_descr_btn {
+        width: 140px;
+    }
+    .card__img {
+        width: 155px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .card__img {
+        width: 145px;
+        height: 150px;
+    }
+    .case_descr_card_one,
+    .case_descr_card_two,
+    .case_descr_card_three {
+        height: 225px;
+    }
+    .header__nav .col-xs-6 {
+        width: 65%;
+    }
+}
